@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "motiv8app",
     "name": "motiv8-app",
     "slug": "motiv8-app",
     "version": "1.0.0",
@@ -24,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
